@@ -1,4 +1,5 @@
 function lifePathNumber(dateOfBirth) {
+  
   let num = dateOfBirth.split('-').join('');
     let sum = 0;
     
@@ -12,7 +13,6 @@ function lifePathNumber(dateOfBirth) {
     return sum;
   //return lifenum;
 }
-
 
 
 
